@@ -1,0 +1,8 @@
+[build]
+  publish = "."
+
+# Sirve la tienda en la dirección principal del sitio
+[[redirects]]
+  from = "/"
+  to = "/tienda-clientes.html"
+  status = 200
